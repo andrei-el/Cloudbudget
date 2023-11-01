@@ -1,0 +1,238 @@
+@media screen and (max-width: 1440px) {
+  .possibilities__grid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .possibilities__grid-item:nth-child(1) {
+    padding-bottom: 380px;
+    background-repeat: no-repeat;
+  }
+}
+
+
+@media screen and (max-width: 1080px) {
+  .menu__flex {
+    display: none;
+  }
+  .menu_button {
+    display: block;
+  }
+  .video__grid {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 94px;
+    justify-items: center;
+    gap: 30px;
+  }
+  .video__grid-item:first-child {
+    padding: 0;
+  }
+  .video__h2 {
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto 40px;
+  }
+  .video__href {
+    padding-left: 0;
+  }
+  .possibilities__grid {
+    margin: 0 auto;
+  }
+  .features__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 0 165px;
+    margin-bottom: 130px;
+  }
+  .video_2__grid {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .video_2__grid-item:first-child {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .video_2__href img {
+    margin-left: 0;
+  }
+  .video_2__h2 {
+    text-align: center;
+  }
+  .video_2__p {
+    text-align: center;
+  }
+  .video_2_icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .contact__grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .contact__grid-text {
+    padding-left: 0;
+    padding-top: 80px;
+  }
+  .contact__h2 {
+    text-align: center;
+  }
+  .contact__p {
+    margin: 0 auto;
+  }
+  .form {
+    padding-top: 60px;
+  }
+  .name, .phone, .contact__button {
+    display: block;
+    margin: 0 auto 20px;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  .header {
+    min-height: 500px;
+  }
+  .header__menu {
+    margin: 0 15px
+  }
+  .header__h1 {
+    font-size: 40px;
+    padding-top: 40px;
+  }
+  .header__p {
+    font-size: 18px;
+  }
+  .possibilities__grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    gap: 30px;
+    padding-bottom: 50px;
+  }
+  .possibilities__grid-item {
+    padding-bottom: 380px;
+    background-repeat: no-repeat;
+  }
+  .features__grid {
+    gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+  }
+  .contact {
+    margin-bottom: 80px;
+    padding: 0 15px;
+  }
+  .name, .phone {
+    max-width: 540px;
+    width: 100%;
+    height: 50px;
+  }
+  .footer {
+    margin-bottom: 100px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .header {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 550px;
+  }
+  .header__menu {
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .video {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .video__href {
+    max-width: 445px;
+  }
+  .video__href img {
+    width: 100%;
+  }
+  .possibilities__grid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .possibilities__grid-item {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+  }
+  .features__grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .video_2 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .video_2__href img {
+    max-width: 445px;
+    width: 100%;
+  }
+  .footer {
+    margin-bottom: 0;
+  }
+  .footer__text {
+    padding-left: 0;
+  }
+  .footer__h4 {
+    text-align: center;
+  }
+  .footer__p-adress {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .footer__p-copyright {
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .possibilities__card {
+    width: 80%;
+    height: 60%;
+    min-width: 30px;
+    max-width: 245px;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .header__h1 {
+    font-size: 24px;
+  }
+  .header__p {
+    font-size: 16px;
+  }
+  .possibilities__h2 {
+    margin-bottom: 0;
+  }
+  .possibilities__grid-item {
+    max-width: 250px;
+    background-position: center center;
+    margin-bottom: 80px;
+  }
+  .possibilities__card {
+    top: 350px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 260px;
+  }
+  .video_2__h2 {
+    font-size: 22px;
+  }
+  .video_2__p {
+    font-size: 11px;
+  }
+  .contact {
+    margin-bottom: 20px;
+  }
+}
